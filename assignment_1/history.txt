@@ -1,0 +1,95 @@
+  170  mkdir CTA200_2024
+  171  cd CTA200_2024/
+  172  mkdir assignment_1
+  173  ls
+  174  cd assignment_1
+  175  ls
+  176  touch README.md
+  177  vi README.md
+  178  print README.md
+  179  cat README.md
+  180  vi README.md
+  181  cat README.md
+  182  vi README.md
+  183  vim
+  184  vi
+  185  vi README.md
+  186  vim
+  187  vi README.md
+  188  vim README.md
+  189  vi README.md
+  190  vi
+  191  vi README.md
+  192  clear
+  193  vi README.md
+  194  cd /mnt/scratch-lustre/molinaca/CTA200_2024/assignment_1/
+  195  ls
+  196  rm $MYVIMRC
+  197  rm '$MYVIMRC'
+  198  vi README.md
+  199  ls
+  200  cd /home/murray
+  201  ls
+  202  find Hello_world*
+  203  cd /mnt/scratch-lustre/molinaca/CTA200_2024/assignment_1/
+  204  cp /home/murray/Hello_world* ./
+  205  ls
+  206  mv Hello_world.c Hello_world_molina.c
+  207  ls
+  208  mv Hello_world.py Hello_world_molina.py
+  209  module avail
+  210  module load gcc
+  211  gcc Hello_world_molina.c
+  212  ls
+  213  rm a.out
+  214  man gcc
+  215  gcc -o Hello_world.x Hello_world_molina.c
+  216  ls
+  217  Hello_world.x
+  218  x Hello_world.x
+  219  python
+  220  module load python
+  221  python
+  222  vi Hello_world.c 
+  223  vi Hello_world.x
+  224  rm Hello_world.x 
+  225  gcc Hello_world_molina.c -o Hellow_world.x
+  226  ls
+  227  gcc Hello_world_molina.c -o Hello_world.x
+  228  ls
+  229  rm Hellow_world.x 
+  230  Hello_world.x
+  231  exit
+  232  Hello_world.x
+  233  module avail
+  234  ls -l
+  235  pwd
+  236  ls
+  237  cd /mnt/scratch-lustre/molinaca/CTA200_2024/assignment_1/
+  238  ls
+  239  ls -l
+  240  ./Hell_world.x
+  241  ./Hello_world.x
+  242  python
+  243  module load python
+  244  python
+  245  python Hello_world_molina.py 
+  246  vi Hello_world_molina.c
+  247  gcc -o Hello_world.x Hello_world_molina.c
+  248  ls
+  249  ./Hello_world.x
+  250  vi Hello_world_molina.py
+  251  python Hello_world_molina.py 
+  252  ./Hello_world.x > output_c.txt
+  253  cat output_c.txt 
+  254  python Hello_world_molina.py > output_python.txt
+  255  cat output_python.txt 
+  256  history
+  257  man history
+  258  history | find cd *
+  259  history | grep cd *
+  260  history -90 > history.txt
+  261  history 90 > history.txt
+  262  cat history.txt
+  263  rm history.txt
+  264  history 95 > history.txt
